@@ -1,12 +1,10 @@
 package cam.expedientesodontologicos;
 
-import android.app.ActionBar;
 import android.support.design.widget.AppBarLayout;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.TableLayout;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -24,8 +22,8 @@ public class MainActivity extends AppCompatActivity {
 
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
 
-        adapter.AddFragment(new FragmentQuiz(), "Quiz");
-        adapter.AddFragment(new Fragment_Explore(), "Explore");
+        adapter.AddFragment(new FragmentDatosgenerales(), "Quiz");
+        adapter.AddFragment(new Fragment_motivoconsulta_historiaactual(), "Explore");
         adapter.AddFragment(new Fragment_store(), "Store");
 
         viewPager.setAdapter(adapter);
