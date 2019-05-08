@@ -3,13 +3,37 @@
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center">
+    android:gravity="left">
+   <TextView
+       android:layout_marginTop="20dp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Motivo de la consulta(Explique):"
+       android:textSize="20dp"
+       />
+    <EditText
 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:maxLines="10"
+        android:minLines="1"
+        />
     <TextView
+        android:layout_marginTop="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Explore Fragment"
-        android:textSize="20sp"
-        android:textStyle="bold"/>
+        android:text="Historia de la enfermedad actual:"
+        android:textSize="20dp"
+        />
+    <EditText
 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:maxLines="10"
+        android:minLines="1"
+        />
 </LinearLayout>
