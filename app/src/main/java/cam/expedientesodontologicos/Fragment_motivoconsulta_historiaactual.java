@@ -8,16 +8,16 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class Fragment_Explore extends Fragment {
+public class Fragment_motivoconsulta_historiaactual extends Fragment {
 
     View view;
-    public Fragment_Explore() {
+    public Fragment_motivoconsulta_historiaactual() {
     }
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        view = inflater.inflate(R.layout.explore_fragment, container, false);
+        view = inflater.inflate(R.layout.motivosconsulta_hitoriaactual_fragment, container, false);
         return view;
     }
 }

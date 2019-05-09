@@ -4,12 +4,14 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="left">
+
    <TextView
        android:layout_marginTop="20dp"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
        android:text="Motivo de la consulta(Explique):"
        android:textSize="20dp"
+       style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
        />
     <EditText
 
@@ -19,13 +21,15 @@
         android:lines="5"
         android:maxLines="10"
         android:minLines="1"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         />
     <TextView
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="100dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Historia de la enfermedad actual:"
         android:textSize="20dp"
+
         />
     <EditText
 
@@ -35,5 +39,6 @@
         android:lines="5"
         android:maxLines="10"
         android:minLines="1"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         />
 </LinearLayout>
