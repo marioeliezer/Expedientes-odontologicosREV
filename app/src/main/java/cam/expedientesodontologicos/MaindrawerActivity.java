@@ -53,7 +53,11 @@ public class MaindrawerActivity extends AppCompatActivity
 
         adapter.AddFragment(new FragmentDatosgenerales(), "Datos generales");
         adapter.AddFragment(new Fragment_motivoconsulta_historiaactual(), "Motivo consulta");
-        adapter.AddFragment(new Fragment_store(), "Store");
+        adapter.AddFragment(new Fragment_VI_VII(), "Historias");
+        adapter.AddFragment(new Fragment_VIII(), "Revision de organos y sistemas");
+        adapter.AddFragment(new Fragment_VIII_2(), "descripcion y otros signos");
+        adapter.AddFragment(new Fragment_IX(), "Signos Vitales");
+        adapter.AddFragment(new Fragment_X_XI_XII(),"Examen Lab, revision medica, Actitud");
 
         viewPager.setAdapter(adapter);
         tabLayout.setupWithViewPager(viewPager);
