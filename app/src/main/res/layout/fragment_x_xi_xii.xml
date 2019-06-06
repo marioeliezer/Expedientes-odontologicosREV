@@ -21,7 +21,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="@dimen/standar_margin"
                 android:text="X. Examenes de laboratorio"
                 android:textSize="@dimen/Texto_20"
                 android:textStyle="bold"/>
@@ -34,8 +34,8 @@
                 <android.support.design.widget.TextInputLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="@dimen/standar_margin"
+                    android:layout_marginStart="@dimen/margin_start"
                     app:hintTextAppearance="@style/AppTheme.FloatingLabel">
 
 
@@ -69,8 +69,8 @@
                 <android.support.design.widget.TextInputLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="@dimen/standar_margin"
+                    android:layout_marginStart="@dimen/margin_start"
                     app:hintTextAppearance="@style/AppTheme.FloatingLabel">
                     <EditText
                         android:id="@+id/edt_revimed"
@@ -88,9 +88,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/floating_label"
+                android:layout_marginTop="@dimen/standar_margin"
                 android:text="XII. Actitud emocional"
-                android:textSize="20sp"
+                android:textSize="@dimen/Texto_20"
                 android:textStyle="bold"/>
 
             <LinearLayout
@@ -101,8 +101,8 @@
                 <android.support.design.widget.TextInputLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="@dimen/standar_margin"
+                    android:layout_marginStart="@dimen/margin_start"
                     app:hintTextAppearance="@style/AppTheme.FloatingLabel">
                     <EditText
                         android:id="@+id/edt_actiemoc"

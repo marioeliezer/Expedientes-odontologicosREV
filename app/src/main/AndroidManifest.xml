@@ -12,11 +12,11 @@
         <activity
             android:name=".ui.login.LoginActivity"
             android:label="@string/title_activity_login"></activity>
-        <activity
+        /*activity
             android:name=".MaindrawerActivity"
             android:label="@string/title_activity_maindrawer"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".MainActivity">
+            android:theme="@style/AppTheme.NoActionBar" />*/
+        <activity android:name=".MaindrawerActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

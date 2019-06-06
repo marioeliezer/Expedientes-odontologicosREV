@@ -1,5 +1,9 @@
 <resources>
     <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="floating_label">20dp</dimen>
+    <dimen name="standar_margin">20dp</dimen>
+    <dimen name="margin_start">32dp</dimen>
+    <dimen name="Texto_20">20sp</dimen>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="nav_header_vertical_spacing">8dp</dimen>

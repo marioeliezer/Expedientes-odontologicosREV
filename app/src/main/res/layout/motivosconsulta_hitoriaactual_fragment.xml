@@ -9,8 +9,8 @@
        android:layout_marginTop="20dp"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-       android:text="Motivo de la consulta(Explique):"
-       android:textSize="20dp"
+       android:text="II. Motivo de la consulta(Explique):"
+       android:textSize="@dimen/Texto_20"
        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
        />
     <EditText
@@ -27,7 +27,7 @@
         android:layout_marginTop="100dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Historia de la enfermedad actual:"
+        android:text="III. Historia de la enfermedad actual:"
         android:textSize="20dp"
 
         />
